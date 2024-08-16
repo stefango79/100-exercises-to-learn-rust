@@ -1,5 +1,6 @@
 // TODO: you have something to do in each of the modules in this crate!
 mod description;
+mod error;
 mod status;
 mod title;
 
@@ -9,6 +10,7 @@ mod title;
 // This hides the internal structure of the crate from your users, while still
 // allowing you to organize your code however you like.
 pub use description::TicketDescription;
+pub use error::TicketError;
 pub use status::Status;
 pub use title::TicketTitle;
 
